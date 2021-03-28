@@ -15,6 +15,8 @@
 		E531E6FA260D294F00C8273E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E531E6F9260D294F00C8273E /* Assets.xcassets */; };
 		E531E6FD260D294F00C8273E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E531E6FB260D294F00C8273E /* LaunchScreen.storyboard */; };
 		E531E70A260D2B7E00C8273E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E531E709260D2B7E00C8273E /* GoogleService-Info.plist */; };
+		E531E76E260FB5AC00C8273E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E76D260FB5AC00C8273E /* LogInViewController.swift */; };
+		E531E7E5260FD50400C8273E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E7E4260FD50400C8273E /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E531E6FC260D294F00C8273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E531E6FE260D294F00C8273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E531E709260D2B7E00C8273E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E531E76D260FB5AC00C8273E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E531E7E4260FD50400C8273E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				E531E6F4260D294D00C8273E /* ViewController.swift */,
+				E531E76D260FB5AC00C8273E /* LogInViewController.swift */,
+				E531E7E4260FD50400C8273E /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,9 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E531E76E260FB5AC00C8273E /* LogInViewController.swift in Sources */,
 				E531E6F5260D294D00C8273E /* ViewController.swift in Sources */,
 				E531E6F1260D294D00C8273E /* AppDelegate.swift in Sources */,
 				E531E6F3260D294D00C8273E /* SceneDelegate.swift in Sources */,
+				E531E7E5260FD50400C8273E /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
