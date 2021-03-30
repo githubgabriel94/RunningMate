@@ -31,11 +31,10 @@ class RegisterUserInfoViewController: UIViewController {
     var Weight = "Weight(Kg)"
     var Phone = "PhoneNumber"
     
-    
     @IBAction func continuePressed(_ sender: UIButton) {
         
-        if let name = nameTextField.text, let lastName = lastNameTextField.text, let address = adressTextField.text, let city = cityTextField.text, let zip = zipTextField.text, let gender = genderTextField.text, let weight = weightTextField.text, let phone = phoneTextField.text, let userId = Auth.auth().currentUser?.uid{
-            db.collection("Users").addDocument(data: [UserID: userId, Name: name, LastName: lastName, Adress: address, City: city, ZipCode: zip, Gender: gender, Weight: weight, Phone: phone]) { (error) in
+        if let name = nameTextField.text, let lastName = lastNameTextField.text, let address = adressTextField.text, let city = cityTextField.text, let zip = zipTextField.text, let gender = genderTextField.text, let weight = weightTextField.text, let phone = phoneTextField.text, let userId = Auth.auth().currentUser?.uid, let documentName = Auth.auth().currentUser?.email{
+            db.collection("Users").document(documentName).setData([UserID: userId, Name: name, LastName: lastName, Adress: address, City: city, ZipCode: zip, Gender: gender, Weight: weight, Phone: phone]) { (error) in
                     if let e = error{
                         print("There was an issue saving data to firestore, \(e)")
                     } else{
@@ -48,6 +47,10 @@ class RegisterUserInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.isNavigationBarHidden = true
     }
     
 }

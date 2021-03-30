@@ -232,10 +232,84 @@
                     <view key="view" contentMode="scaleToFill" id="tk9-L5-5R2">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvi-on-f95">
+                                <rect key="frame" x="30" y="60" width="267" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.93470746280000006" green="0.59217530490000003" blue="0.26264342670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7tn-U5-8f0">
+                                <rect key="frame" x="30" y="150" width="330" height="4"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simply tell us inside which range of temperatures are you confortable going for a run. (Celsius)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNH-97-rjF">
+                                <rect key="frame" x="50" y="219.99999999999997" width="288" height="95.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.93470746280000006" green="0.59217530490000003" blue="0.26264342670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Minimun Temp. " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jHe-tG-jmf">
+                                <rect key="frame" x="30" y="415.66666666666669" width="330" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Avu-Hj-1i7"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Maximun Temp." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2gV-Qv-ESZ">
+                                <rect key="frame" x="30" y="475.66666666666669" width="330" height="50.000000000000057"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7MH-m4-DTd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQJ-ah-Gjw">
+                                <rect key="frame" x="30" y="667" width="330" height="39"/>
+                                <color key="backgroundColor" red="0.93470746280000006" green="0.59217530490000003" blue="0.26264342670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="A3B-DU-Gys"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="continuePressed:" destination="4y9-wO-Vs5" eventType="touchUpInside" id="IUq-ve-fIR"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BsZ-1A-Jsw"/>
                         <color key="backgroundColor" red="0.13317221400000001" green="0.1138615236" blue="0.1058810875" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bQJ-ah-Gjw" firstAttribute="leading" secondItem="BsZ-1A-Jsw" secondAttribute="leading" constant="30" id="2jA-si-Zme"/>
+                            <constraint firstItem="2gV-Qv-ESZ" firstAttribute="top" secondItem="jHe-tG-jmf" secondAttribute="bottom" constant="10" id="6ua-vf-6DJ"/>
+                            <constraint firstItem="TNH-97-rjF" firstAttribute="leading" secondItem="tk9-L5-5R2" secondAttribute="leading" constant="50" id="Ay8-97-uHh"/>
+                            <constraint firstItem="BsZ-1A-Jsw" firstAttribute="trailing" secondItem="7tn-U5-8f0" secondAttribute="trailing" constant="30" id="EN3-sn-j6o"/>
+                            <constraint firstItem="BsZ-1A-Jsw" firstAttribute="trailing" secondItem="lvi-on-f95" secondAttribute="trailing" constant="93" id="GFt-wH-VK5"/>
+                            <constraint firstItem="TNH-97-rjF" firstAttribute="top" secondItem="lvi-on-f95" secondAttribute="bottom" constant="100" id="RA0-tD-ix3"/>
+                            <constraint firstItem="7tn-U5-8f0" firstAttribute="top" secondItem="lvi-on-f95" secondAttribute="bottom" constant="30" id="SVe-8r-kxc"/>
+                            <constraint firstItem="2gV-Qv-ESZ" firstAttribute="leading" secondItem="BsZ-1A-Jsw" secondAttribute="leading" constant="30" id="VRk-PS-REx"/>
+                            <constraint firstItem="BsZ-1A-Jsw" firstAttribute="trailing" secondItem="bQJ-ah-Gjw" secondAttribute="trailing" constant="30" id="WQd-bD-zzq"/>
+                            <constraint firstItem="lvi-on-f95" firstAttribute="top" secondItem="BsZ-1A-Jsw" secondAttribute="top" constant="60" id="YP9-gA-ZKm"/>
+                            <constraint firstItem="lvi-on-f95" firstAttribute="leading" secondItem="BsZ-1A-Jsw" secondAttribute="leading" constant="30" id="enP-qj-3VK"/>
+                            <constraint firstItem="jHe-tG-jmf" firstAttribute="leading" secondItem="BsZ-1A-Jsw" secondAttribute="leading" constant="30" id="ieB-hJ-Tfz"/>
+                            <constraint firstItem="7tn-U5-8f0" firstAttribute="leading" secondItem="BsZ-1A-Jsw" secondAttribute="leading" constant="30" id="nEJ-5t-MEO"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TNH-97-rjF" secondAttribute="trailing" constant="50" id="rvx-PS-twk"/>
+                            <constraint firstItem="jHe-tG-jmf" firstAttribute="top" secondItem="TNH-97-rjF" secondAttribute="bottom" constant="100" id="sVW-a7-qqP"/>
+                            <constraint firstItem="BsZ-1A-Jsw" firstAttribute="trailing" secondItem="jHe-tG-jmf" secondAttribute="trailing" constant="30" id="u09-HU-WvL"/>
+                            <constraint firstItem="BsZ-1A-Jsw" firstAttribute="trailing" secondItem="2gV-Qv-ESZ" secondAttribute="trailing" constant="30" id="ued-0v-Q4u"/>
+                            <constraint firstItem="BsZ-1A-Jsw" firstAttribute="bottom" secondItem="bQJ-ah-Gjw" secondAttribute="bottom" constant="50" id="wVc-aa-jBw"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XPL-Hx-mVN"/>
+                    <connections>
+                        <outlet property="maxTempTextField" destination="2gV-Qv-ESZ" id="mpW-6c-vJD"/>
+                        <outlet property="minTempTextField" destination="jHe-tG-jmf" id="EhU-t2-DSz"/>
+                        <outlet property="tempsPBar" destination="7tn-U5-8f0" id="N4R-66-gJW"/>
+                        <segue destination="bKx-XP-pox" kind="show" identifier="params1ToParams2" id="435-ND-9K4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRO-cJ-Ogx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -406,11 +480,12 @@
             <objects>
                 <viewController id="bKx-XP-pox" customClass="RegisterParams2ViewController" customModule="RunningMate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fpl-li-TGk">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="nl9-xX-xaX"/>
                         <color key="backgroundColor" red="0.13317221400000001" green="0.1138615236" blue="0.1058810875" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="leV-Wr-SCv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ai6-TT-geT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
