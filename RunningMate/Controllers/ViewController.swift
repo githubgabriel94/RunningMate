@@ -6,29 +6,30 @@
 //
 
 import UIKit
-import CLTypingLabel
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var MainAppTitle: UILabel!
+    
+    
+    @IBOutlet weak var mainAppTitle: UILabel!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        navigationController?.isNavigationBarHidden = true
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        MainAppTitle.text = ""
+        mainAppTitle.text? = ""
         var charIndex = 0.0
         let titleText = "RunningMate"
         for letter in titleText{
             Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false){ (timer) in
-                self.MainAppTitle.text?.append(letter)
+                self.mainAppTitle.text?.append(letter)
             }
             charIndex += 1
         }
         
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 }
 

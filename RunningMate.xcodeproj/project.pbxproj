@@ -17,6 +17,13 @@
 		E531E70A260D2B7E00C8273E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E531E709260D2B7E00C8273E /* GoogleService-Info.plist */; };
 		E531E76E260FB5AC00C8273E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E76D260FB5AC00C8273E /* LogInViewController.swift */; };
 		E531E7E5260FD50400C8273E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E7E4260FD50400C8273E /* SignUpViewController.swift */; };
+		E568E2E92612254400D68877 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2E82612254400D68877 /* HomeScreenViewController.swift */; };
+		E568E2EC261227FB00D68877 /* RegisterParams2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2EB261227FB00D68877 /* RegisterParams2ViewController.swift */; };
+		E568E2EF2612283600D68877 /* RegisterParams3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2EE2612283600D68877 /* RegisterParams3ViewController.swift */; };
+		E568E2F22612287500D68877 /* RegisterCongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2F12612287500D68877 /* RegisterCongratsViewController.swift */; };
+		E568E2F52612775A00D68877 /* ProfileMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2F42612775A00D68877 /* ProfileMainViewController.swift */; };
+		E568E2F826127DC900D68877 /* RegisterUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2F726127DC900D68877 /* RegisterUserInfoViewController.swift */; };
+		E594E4D826113C6E00B674B6 /* RegisterParams1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,13 @@
 		E531E709260D2B7E00C8273E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E531E76D260FB5AC00C8273E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		E531E7E4260FD50400C8273E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E568E2E82612254400D68877 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		E568E2EB261227FB00D68877 /* RegisterParams2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams2ViewController.swift; sourceTree = "<group>"; };
+		E568E2EE2612283600D68877 /* RegisterParams3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams3ViewController.swift; sourceTree = "<group>"; };
+		E568E2F12612287500D68877 /* RegisterCongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCongratsViewController.swift; sourceTree = "<group>"; };
+		E568E2F42612775A00D68877 /* ProfileMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainViewController.swift; sourceTree = "<group>"; };
+		E568E2F726127DC900D68877 /* RegisterUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserInfoViewController.swift; sourceTree = "<group>"; };
+		E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +125,13 @@
 				E531E6F4260D294D00C8273E /* ViewController.swift */,
 				E531E76D260FB5AC00C8273E /* LogInViewController.swift */,
 				E531E7E4260FD50400C8273E /* SignUpViewController.swift */,
+				E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */,
+				E568E2E82612254400D68877 /* HomeScreenViewController.swift */,
+				E568E2EB261227FB00D68877 /* RegisterParams2ViewController.swift */,
+				E568E2EE2612283600D68877 /* RegisterParams3ViewController.swift */,
+				E568E2F12612287500D68877 /* RegisterCongratsViewController.swift */,
+				E568E2F42612775A00D68877 /* ProfileMainViewController.swift */,
+				E568E2F726127DC900D68877 /* RegisterUserInfoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,7 +156,7 @@
 				E531E6E9260D294D00C8273E /* Sources */,
 				E531E6EA260D294D00C8273E /* Frameworks */,
 				E531E6EB260D294D00C8273E /* Resources */,
-				B57F2C65D087A1DC48D6A90C /* [CP] Embed Pods Frameworks */,
+				0E5CC51A0E566E1180EDE038 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +214,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E5CC51A0E566E1180EDE038 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunningMate/Pods-RunningMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunningMate/Pods-RunningMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RunningMate/Pods-RunningMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		69D69A474D0C570587A4E79B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,23 +253,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B57F2C65D087A1DC48D6A90C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RunningMate/Pods-RunningMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RunningMate/Pods-RunningMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RunningMate/Pods-RunningMate-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -239,11 +260,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E568E2EC261227FB00D68877 /* RegisterParams2ViewController.swift in Sources */,
 				E531E76E260FB5AC00C8273E /* LogInViewController.swift in Sources */,
 				E531E6F5260D294D00C8273E /* ViewController.swift in Sources */,
+				E568E2EF2612283600D68877 /* RegisterParams3ViewController.swift in Sources */,
+				E568E2F22612287500D68877 /* RegisterCongratsViewController.swift in Sources */,
 				E531E6F1260D294D00C8273E /* AppDelegate.swift in Sources */,
+				E568E2F826127DC900D68877 /* RegisterUserInfoViewController.swift in Sources */,
+				E568E2F52612775A00D68877 /* ProfileMainViewController.swift in Sources */,
+				E594E4D826113C6E00B674B6 /* RegisterParams1ViewController.swift in Sources */,
 				E531E6F3260D294D00C8273E /* SceneDelegate.swift in Sources */,
 				E531E7E5260FD50400C8273E /* SignUpViewController.swift in Sources */,
+				E568E2E92612254400D68877 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
