@@ -13,5 +13,8 @@ class RegisterParams1ViewController: UIViewController{
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.isNavigationBarHidden = false
+    }
     
 }

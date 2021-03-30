@@ -12,6 +12,7 @@ class LogInViewController: UIViewController{
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var errorLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,7 @@ class LogInViewController: UIViewController{
         if let email = emailTextField.text, let password = passwordTextField.text {
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                 if let e = error{
-                    print(e)
+                    self.errorLabel.text = e.localizedDescription
                 }else{
                     self.performSegue(withIdentifier: "logInToHome", sender: self)
                 }

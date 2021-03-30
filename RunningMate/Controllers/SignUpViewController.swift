@@ -11,6 +11,7 @@ import Firebase
 class SignUpViewController: UIViewController{
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var errorLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,10 +23,16 @@ class SignUpViewController: UIViewController{
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if let e = error{
                     print(e)
+                    self.errorLabel.text = e.localizedDescription
                 }else{
-                    self.performSegue(withIdentifier: "RegisterToUserInfo", sender: self)
+                    Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                        if let e = error{
+                            print(e)
+                        }else{
+                            self.performSegue(withIdentifier: "RegisterToUserInfo", sender: self)
+                        }
+                    }
                 }
-                
             }
         }
     }
