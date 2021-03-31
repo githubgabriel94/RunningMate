@@ -27,7 +27,7 @@ class RegisterParams1ViewController: UIViewController{
     @IBAction func continuePressed(_ sender: UIButton) {
         
         if let min = minTempTextField.text, let max = maxTempTextField.text, let documentName = Auth.auth().currentUser?.email{
-            db.collection("Users").document(documentName).setData([minTemp: min, maxTemp:max]){
+            db.collection("Users").document(documentName).updateData([minTemp: min, maxTemp:max]){
                 (error) in
                 if let e = error {
                     print("There was an issue saving data to firestore, \(e)")

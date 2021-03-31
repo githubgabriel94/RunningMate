@@ -24,6 +24,7 @@
 		E568E2F52612775A00D68877 /* ProfileMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2F42612775A00D68877 /* ProfileMainViewController.swift */; };
 		E568E2F826127DC900D68877 /* RegisterUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2F726127DC900D68877 /* RegisterUserInfoViewController.swift */; };
 		E568E2FB2613240800D68877 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2FA2613240800D68877 /* User.swift */; };
+		E568E3012613D6D200D68877 /* RegisterParams4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E3002613D6D200D68877 /* RegisterParams4ViewController.swift */; };
 		E594E4D826113C6E00B674B6 /* RegisterParams1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		E568E2F42612775A00D68877 /* ProfileMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainViewController.swift; sourceTree = "<group>"; };
 		E568E2F726127DC900D68877 /* RegisterUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserInfoViewController.swift; sourceTree = "<group>"; };
 		E568E2FA2613240800D68877 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E568E3002613D6D200D68877 /* RegisterParams4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams4ViewController.swift; sourceTree = "<group>"; };
 		E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,10 +132,11 @@
 				E531E7E4260FD50400C8273E /* SignUpViewController.swift */,
 				E568E2F726127DC900D68877 /* RegisterUserInfoViewController.swift */,
 				E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */,
-				E568E2E82612254400D68877 /* HomeScreenViewController.swift */,
 				E568E2EB261227FB00D68877 /* RegisterParams2ViewController.swift */,
 				E568E2EE2612283600D68877 /* RegisterParams3ViewController.swift */,
+				E568E3002613D6D200D68877 /* RegisterParams4ViewController.swift */,
 				E568E2F12612287500D68877 /* RegisterCongratsViewController.swift */,
+				E568E2E82612254400D68877 /* HomeScreenViewController.swift */,
 				E568E2F42612775A00D68877 /* ProfileMainViewController.swift */,
 			);
 			path = Controllers;
@@ -265,6 +268,7 @@
 			files = (
 				E568E2FB2613240800D68877 /* User.swift in Sources */,
 				E568E2EC261227FB00D68877 /* RegisterParams2ViewController.swift in Sources */,
+				E568E3012613D6D200D68877 /* RegisterParams4ViewController.swift in Sources */,
 				E531E76E260FB5AC00C8273E /* LogInViewController.swift in Sources */,
 				E531E6F5260D294D00C8273E /* ViewController.swift in Sources */,
 				E568E2EF2612283600D68877 /* RegisterParams3ViewController.swift in Sources */,
