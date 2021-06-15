@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		285B6FA9595ED440D6A183C2 /* Pods_RunningMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B33977FB0109240F0888A1 /* Pods_RunningMate.framework */; };
+		E52CBE80265FDC0E00A96FCE /* âPngtreeâwhite line_6185206.png in Resources */ = {isa = PBXBuildFile; fileRef = E52CBE7F265FDC0E00A96FCE /* âPngtreeâwhite line_6185206.png */; };
 		E531E6F1260D294D00C8273E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E6F0260D294D00C8273E /* AppDelegate.swift */; };
 		E531E6F3260D294D00C8273E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E6F2260D294D00C8273E /* SceneDelegate.swift */; };
 		E531E6F5260D294D00C8273E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E6F4260D294D00C8273E /* ViewController.swift */; };
@@ -17,6 +18,13 @@
 		E531E70A260D2B7E00C8273E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E531E709260D2B7E00C8273E /* GoogleService-Info.plist */; };
 		E531E76E260FB5AC00C8273E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E76D260FB5AC00C8273E /* LogInViewController.swift */; };
 		E531E7E5260FD50400C8273E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531E7E4260FD50400C8273E /* SignUpViewController.swift */; };
+		E55F33FA264FD3E7009D597E /* kisspng-running-man-5a6bfd51edf492.8291987115170266419747.png in Resources */ = {isa = PBXBuildFile; fileRef = E55F33F9264FD3E7009D597E /* kisspng-running-man-5a6bfd51edf492.8291987115170266419747.png */; };
+		E55F33FC264FD4A5009D597E /* kisspng-running-physical-exercise-anti-mÃ¼llerian-hormone-people-running-5a713e28980405.5618601615173709206227.png in Resources */ = {isa = PBXBuildFile; fileRef = E55F33FB264FD4A5009D597E /* kisspng-running-physical-exercise-anti-mÃ¼llerian-hormone-people-running-5a713e28980405.5618601615173709206227.png */; };
+		E55F33FE2650185D009D597E /* 5a30b91b399a06.1555542115131425552359.png in Resources */ = {isa = PBXBuildFile; fileRef = E55F33FD2650185C009D597E /* 5a30b91b399a06.1555542115131425552359.png */; };
+		E55F340026501E1C009D597E /* kisspng-running-track-and-field-athletics-clip-art-running-man-5a713db0b979e4.3279853315173708007597.png in Resources */ = {isa = PBXBuildFile; fileRef = E55F33FF26501E1B009D597E /* kisspng-running-track-and-field-athletics-clip-art-running-man-5a713db0b979e4.3279853315173708007597.png */; };
+		E55F340826502219009D597E /* kisspng-parkour-sport-baseball-illustration-parkour-sports-city-run-cool-element-5a890cf521bf93.8806888815189311891382.png in Resources */ = {isa = PBXBuildFile; fileRef = E55F340726502219009D597E /* kisspng-parkour-sport-baseball-illustration-parkour-sports-city-run-cool-element-5a890cf521bf93.8806888815189311891382.png */; };
+		E55F340C26502334009D597E /* kisspng-watercolor-painting-running-drawing-vector-watercolor-and-running-man-5a94983abd3995.4814962415196877387751.png in Resources */ = {isa = PBXBuildFile; fileRef = E55F340B26502334009D597E /* kisspng-watercolor-painting-running-drawing-vector-watercolor-and-running-man-5a94983abd3995.4814962415196877387751.png */; };
+		E566C2172667E6C700914AC6 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566C2162667E6C700914AC6 /* PreferencesViewController.swift */; };
 		E568E2E92612254400D68877 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2E82612254400D68877 /* HomeScreenViewController.swift */; };
 		E568E2EC261227FB00D68877 /* RegisterParams2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2EB261227FB00D68877 /* RegisterParams2ViewController.swift */; };
 		E568E2EF2612283600D68877 /* RegisterParams3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2EE2612283600D68877 /* RegisterParams3ViewController.swift */; };
@@ -26,12 +34,18 @@
 		E568E2FB2613240800D68877 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E2FA2613240800D68877 /* User.swift */; };
 		E568E3012613D6D200D68877 /* RegisterParams4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568E3002613D6D200D68877 /* RegisterParams4ViewController.swift */; };
 		E594E4D826113C6E00B674B6 /* RegisterParams1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */; };
+		E5BCB7452672702100EF7DD0 /* 3FAEB625-E739-4E80-A77A-7A2E1D905F72_1_105_c.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BCB7442672702100EF7DD0 /* 3FAEB625-E739-4E80-A77A-7A2E1D905F72_1_105_c.png */; };
+		E5BCB7472676686700EF7DD0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB7462676686600EF7DD0 /* WeatherViewController.swift */; };
+		E5BCB74926766C2D00EF7DD0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB74826766C2D00EF7DD0 /* WeatherData.swift */; };
+		E5BCB74B26766C4C00EF7DD0 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB74A26766C4C00EF7DD0 /* WeatherModel.swift */; };
+		E5BCB74D2677631500EF7DD0 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB74C2677631500EF7DD0 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		64FA8028063919471178C79A /* Pods-RunningMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunningMate.release.xcconfig"; path = "Target Support Files/Pods-RunningMate/Pods-RunningMate.release.xcconfig"; sourceTree = "<group>"; };
 		65B36D324BF6CCE8C21E1B04 /* Pods-RunningMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunningMate.debug.xcconfig"; path = "Target Support Files/Pods-RunningMate/Pods-RunningMate.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B33977FB0109240F0888A1 /* Pods_RunningMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunningMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52CBE7F265FDC0E00A96FCE /* âPngtreeâwhite line_6185206.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "âPngtreeâwhite line_6185206.png"; sourceTree = "<group>"; };
 		E531E6ED260D294D00C8273E /* RunningMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E531E6F0260D294D00C8273E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E531E6F2260D294D00C8273E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +57,13 @@
 		E531E709260D2B7E00C8273E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E531E76D260FB5AC00C8273E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		E531E7E4260FD50400C8273E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E55F33F9264FD3E7009D597E /* kisspng-running-man-5a6bfd51edf492.8291987115170266419747.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kisspng-running-man-5a6bfd51edf492.8291987115170266419747.png"; sourceTree = "<group>"; };
+		E55F33FB264FD4A5009D597E /* kisspng-running-physical-exercise-anti-mÃ¼llerian-hormone-people-running-5a713e28980405.5618601615173709206227.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kisspng-running-physical-exercise-anti-mÃ¼llerian-hormone-people-running-5a713e28980405.5618601615173709206227.png"; sourceTree = "<group>"; };
+		E55F33FD2650185C009D597E /* 5a30b91b399a06.1555542115131425552359.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5a30b91b399a06.1555542115131425552359.png; sourceTree = "<group>"; };
+		E55F33FF26501E1B009D597E /* kisspng-running-track-and-field-athletics-clip-art-running-man-5a713db0b979e4.3279853315173708007597.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kisspng-running-track-and-field-athletics-clip-art-running-man-5a713db0b979e4.3279853315173708007597.png"; sourceTree = "<group>"; };
+		E55F340726502219009D597E /* kisspng-parkour-sport-baseball-illustration-parkour-sports-city-run-cool-element-5a890cf521bf93.8806888815189311891382.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kisspng-parkour-sport-baseball-illustration-parkour-sports-city-run-cool-element-5a890cf521bf93.8806888815189311891382.png"; path = "../../../../../Downloads/kisspng-parkour-sport-baseball-illustration-parkour-sports-city-run-cool-element-5a890cf521bf93.8806888815189311891382.png"; sourceTree = "<group>"; };
+		E55F340B26502334009D597E /* kisspng-watercolor-painting-running-drawing-vector-watercolor-and-running-man-5a94983abd3995.4814962415196877387751.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kisspng-watercolor-painting-running-drawing-vector-watercolor-and-running-man-5a94983abd3995.4814962415196877387751.png"; path = "../../../../../Downloads/kisspng-watercolor-painting-running-drawing-vector-watercolor-and-running-man-5a94983abd3995.4814962415196877387751.png"; sourceTree = "<group>"; };
+		E566C2162667E6C700914AC6 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		E568E2E82612254400D68877 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		E568E2EB261227FB00D68877 /* RegisterParams2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams2ViewController.swift; sourceTree = "<group>"; };
 		E568E2EE2612283600D68877 /* RegisterParams3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams3ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +73,11 @@
 		E568E2FA2613240800D68877 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E568E3002613D6D200D68877 /* RegisterParams4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams4ViewController.swift; sourceTree = "<group>"; };
 		E594E4D726113C6E00B674B6 /* RegisterParams1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterParams1ViewController.swift; sourceTree = "<group>"; };
+		E5BCB7442672702100EF7DD0 /* 3FAEB625-E739-4E80-A77A-7A2E1D905F72_1_105_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3FAEB625-E739-4E80-A77A-7A2E1D905F72_1_105_c.png"; sourceTree = "<group>"; };
+		E5BCB7462676686600EF7DD0 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		E5BCB74826766C2D00EF7DD0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		E5BCB74A26766C4C00EF7DD0 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		E5BCB74C2677631500EF7DD0 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +121,7 @@
 		E531E6EF260D294D00C8273E /* RunningMate */ = {
 			isa = PBXGroup;
 			children = (
+				E55F33F7264FD3C8009D597E /* Assets */,
 				E531E6F0260D294D00C8273E /* AppDelegate.swift */,
 				E531E6F2260D294D00C8273E /* SceneDelegate.swift */,
 				E531E706260D299600C8273E /* Models */,
@@ -120,6 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				E568E2FA2613240800D68877 /* User.swift */,
+				E5BCB74826766C2D00EF7DD0 /* WeatherData.swift */,
+				E5BCB74A26766C4C00EF7DD0 /* WeatherModel.swift */,
+				E5BCB74C2677631500EF7DD0 /* WeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,8 +168,33 @@
 				E568E2F12612287500D68877 /* RegisterCongratsViewController.swift */,
 				E568E2E82612254400D68877 /* HomeScreenViewController.swift */,
 				E568E2F42612775A00D68877 /* ProfileMainViewController.swift */,
+				E566C2162667E6C700914AC6 /* PreferencesViewController.swift */,
+				E5BCB7462676686600EF7DD0 /* WeatherViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E55F33F7264FD3C8009D597E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E55F33F8264FD3D4009D597E /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E55F33F8264FD3D4009D597E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E52CBE7F265FDC0E00A96FCE /* âPngtreeâwhite line_6185206.png */,
+				E55F33F9264FD3E7009D597E /* kisspng-running-man-5a6bfd51edf492.8291987115170266419747.png */,
+				E5BCB7442672702100EF7DD0 /* 3FAEB625-E739-4E80-A77A-7A2E1D905F72_1_105_c.png */,
+				E55F33FD2650185C009D597E /* 5a30b91b399a06.1555542115131425552359.png */,
+				E55F340B26502334009D597E /* kisspng-watercolor-painting-running-drawing-vector-watercolor-and-running-man-5a94983abd3995.4814962415196877387751.png */,
+				E55F33FF26501E1B009D597E /* kisspng-running-track-and-field-athletics-clip-art-running-man-5a713db0b979e4.3279853315173708007597.png */,
+				E55F340726502219009D597E /* kisspng-parkour-sport-baseball-illustration-parkour-sports-city-run-cool-element-5a890cf521bf93.8806888815189311891382.png */,
+				E55F33FB264FD4A5009D597E /* kisspng-running-physical-exercise-anti-mÃ¼llerian-hormone-people-running-5a713e28980405.5618601615173709206227.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		EADF8E1962CAFD3B86886CED /* Pods */ = {
@@ -210,9 +265,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52CBE80265FDC0E00A96FCE /* âPngtreeâwhite line_6185206.png in Resources */,
 				E531E6FD260D294F00C8273E /* LaunchScreen.storyboard in Resources */,
+				E55F33FE2650185D009D597E /* 5a30b91b399a06.1555542115131425552359.png in Resources */,
+				E55F340026501E1C009D597E /* kisspng-running-track-and-field-athletics-clip-art-running-man-5a713db0b979e4.3279853315173708007597.png in Resources */,
+				E55F340826502219009D597E /* kisspng-parkour-sport-baseball-illustration-parkour-sports-city-run-cool-element-5a890cf521bf93.8806888815189311891382.png in Resources */,
 				E531E70A260D2B7E00C8273E /* GoogleService-Info.plist in Resources */,
+				E55F340C26502334009D597E /* kisspng-watercolor-painting-running-drawing-vector-watercolor-and-running-man-5a94983abd3995.4814962415196877387751.png in Resources */,
+				E55F33FA264FD3E7009D597E /* kisspng-running-man-5a6bfd51edf492.8291987115170266419747.png in Resources */,
 				E531E6FA260D294F00C8273E /* Assets.xcassets in Resources */,
+				E55F33FC264FD4A5009D597E /* kisspng-running-physical-exercise-anti-mÃ¼llerian-hormone-people-running-5a713e28980405.5618601615173709206227.png in Resources */,
+				E5BCB7452672702100EF7DD0 /* 3FAEB625-E739-4E80-A77A-7A2E1D905F72_1_105_c.png in Resources */,
 				E531E6F8260D294D00C8273E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,13 +333,18 @@
 				E568E2EC261227FB00D68877 /* RegisterParams2ViewController.swift in Sources */,
 				E568E3012613D6D200D68877 /* RegisterParams4ViewController.swift in Sources */,
 				E531E76E260FB5AC00C8273E /* LogInViewController.swift in Sources */,
+				E5BCB74B26766C4C00EF7DD0 /* WeatherModel.swift in Sources */,
 				E531E6F5260D294D00C8273E /* ViewController.swift in Sources */,
+				E5BCB7472676686700EF7DD0 /* WeatherViewController.swift in Sources */,
+				E566C2172667E6C700914AC6 /* PreferencesViewController.swift in Sources */,
 				E568E2EF2612283600D68877 /* RegisterParams3ViewController.swift in Sources */,
 				E568E2F22612287500D68877 /* RegisterCongratsViewController.swift in Sources */,
 				E531E6F1260D294D00C8273E /* AppDelegate.swift in Sources */,
 				E568E2F826127DC900D68877 /* RegisterUserInfoViewController.swift in Sources */,
 				E568E2F52612775A00D68877 /* ProfileMainViewController.swift in Sources */,
 				E594E4D826113C6E00B674B6 /* RegisterParams1ViewController.swift in Sources */,
+				E5BCB74926766C2D00EF7DD0 /* WeatherData.swift in Sources */,
+				E5BCB74D2677631500EF7DD0 /* WeatherManager.swift in Sources */,
 				E531E6F3260D294D00C8273E /* SceneDelegate.swift in Sources */,
 				E531E7E5260FD50400C8273E /* SignUpViewController.swift in Sources */,
 				E568E2E92612254400D68877 /* HomeScreenViewController.swift in Sources */,
@@ -356,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -411,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
